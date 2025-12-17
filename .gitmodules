@@ -1,3 +1,6 @@
 [submodule "docs"]
 	path = docs
 	url = https://github.com/RaiVandeberg/B2BMarket-docs.git
+[submodule "microservicos/ordering"]
+	path = microservicos/ordering
+	url = https://github.com/RaiVandeberg/B2BMarket-ordering.git
