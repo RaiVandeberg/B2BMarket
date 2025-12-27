@@ -7,12 +7,20 @@
         <processorPath useClasspath="false">
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.42/8365263844ebb62398e0dc33057ba10ba472d3b8/lombok-1.18.42.jar" />
         </processorPath>
-        <module name="ordering.main" />
+        <module name="B2BMarket.ordering.main" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ordering" target="21" />
+      <module name="ordering.main" target="21" />
+      <module name="ordering.test" target="21" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="B2BMarket.ordering" options="-parameters" />
+      <module name="B2BMarket.ordering.main" options="-parameters" />
+      <module name="B2BMarket.ordering.test" options="-parameters" />
       <module name="ordering" options="-parameters" />
       <module name="ordering.main" options="-parameters" />
       <module name="ordering.test" options="-parameters" />

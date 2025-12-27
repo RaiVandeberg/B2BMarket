@@ -1,0 +1,5 @@
+rootProject.name = 'B2BMarket'
+
+include('ordering')
+
+project(':ordering').projectDir = file('microservicos/ordering')
