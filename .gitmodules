@@ -4,3 +4,6 @@
 [submodule "microservicos/ordering"]
 	path = microservicos/ordering
 	url = https://github.com/RaiVandeberg/B2BMarket-ordering.git
+[submodule "microservicos/billing"]
+	path = microservicos/billing
+	url = https://github.com/RaiVandeberg/B2BMarket-billing.git
