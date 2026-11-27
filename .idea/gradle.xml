@@ -9,6 +9,7 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/microservicos/billing" />
             <option value="$PROJECT_DIR$/microservicos/ordering" />
           </set>
         </option>
